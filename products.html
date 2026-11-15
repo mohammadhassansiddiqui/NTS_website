@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products & Services | NTS ™ - Pakistan</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="img/nts_logo.svg">
+    <style>
+        .inner-banner {
+            background: linear-gradient(rgba(0, 43, 73, 0.90), rgba(0, 20, 40, 0.95)), url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1600&q=80') center/cover;
+            color: #ffffff;
+            padding: 50px 0;
+            border-bottom: 4px solid var(--nts-gold);
+        }
+        .inner-banner h1 { font-size: 32px; color: #ffffff; margin-bottom: 8px; }
+        .breadcrumb { font-size: 13px; color: #cbd5e1; }
+        .breadcrumb a { color: var(--nts-gold); }
+        .content-area { padding: 50px 0; background: #ffffff; }
+        .prod-detail-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 30px;
+            margin-bottom: 35px;
+            box-shadow: var(--shadow-sm);
+            border-top: 4px solid var(--nts-navy);
+        }
+        .prod-detail-card h2 {
+            font-size: 22px;
+            color: var(--nts-navy);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .prod-detail-card p {
+            font-size: 14px;
+            color: #334155;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .table-custom {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            margin: 15px 0 20px;
+        }
+        .table-custom th, .table-custom td {
+            padding: 10px 14px;
+            border: 1px solid #cbd5e1;
+        }
+        .table-custom th {
+            background-color: var(--nts-navy);
+            color: #ffffff;
+            font-weight: 600;
+        }
+        .badge-pill {
+            background: #e0f2fe;
+            color: #0369a1;
+            font-weight: 700;
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 12px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-left">
+                <span><i class="fa-solid fa-phone"></i> <strong>Call Center:</strong> +92-51-844-444-1</span>
+                <span><i class="fa-regular fa-envelope"></i> query@nts.org.pk</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="challan.html"><i class="fa-solid fa-receipt"></i> 1Bill Challan</a>
+                <a href="sample-papers.html"><i class="fa-solid fa-download"></i> Sample Papers</a>
+                <a href="candidate-portal.html" class="top-portal-btn"><i class="fa-solid fa-user-lock"></i> Candidate Portal</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="brand-area">
+                <a href="index.html" class="logo-link">
+                    <img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="National Testing Service - Pakistan" class="nts-main-logo">
+                </a>
+            </div>
+            <div class="header-badges">
+                <div class="call-center-box">
+                    <div class="cc-icon"><i class="fa-solid fa-headset"></i></div>
+                    <div class="cc-text">
+                        <span>CALL CENTER HELPLINE</span>
+                        <strong>+92-51-844-444-1</strong>
+                    </div>
+                </div>
+                <div class="iso-box"><img src="img/iso_logo.svg" alt="ISO 9001:2015" style="height: 48px;"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION MENU -->
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li class="dropdown"><a href="about.html">ABOUT US <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#intro">About NTS</a></li>
+                        <li><a href="about.html#vision">Vision & Mission</a></li>
+                        <li><a href="about.html#bod">Board of Directors</a></li>
+                        <li><a href="about.html#ceo">Message from CEO</a></li>
+                    </ul>
+                </li>
+                <li class="active dropdown"><a href="products.html">PRODUCTS & SERVICES <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html#nat">National Aptitude Test (NAT™)</a></li>
+                        <li><a href="products.html#gat-gen">GAT™ General</a></li>
+                        <li><a href="products.html#gat-sub">GAT™ Subject</a></li>
+                        <li><a href="products.html#recruitment">Recruitment Screening</a></li>
+                        <li><a href="products.html#intl">International Tests</a></li>
+                    </ul>
+                </li>
+                <li><a href="open-applications.html">OPEN APPLICATIONS</a></li>
+                <li><a href="candidates.html">LIST OF CANDIDATES</a></li>
+                <li><a href="results.html">ALL RESULTS</a></li>
+                <li class="dropdown"><a href="downloads.html">DOWNLOADS <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="challan.html">1Bill Bank Deposit Slips</a></li>
+                        <li><a href="sample-papers.html">Sample Papers</a></li>
+                        <li><a href="candidates.html">Roll Number Slips</a></li>
+                        <li><a href="results.html">Result Cards</a></li>
+                    </ul>
+                </li>
+                <li><a href="procurement.html">PROCUREMENT</a></li>
+                <li><a href="csr.html">CSR</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <div class="nav-portal-shortcut">
+                <a href="candidate-portal.html" class="nav-portal-pill"><i class="fa-solid fa-user"></i> Portal Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- INNER BANNER -->
+    <div class="inner-banner">
+        <div class="container">
+            <h1>Products & Services</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> &nbsp;/&nbsp; Products & Services &nbsp;/&nbsp; Standardized Assessment Portfolio
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content-area">
+        <div class="container">
+
+            <!-- 1. NAT -->
+            <div class="prod-detail-card" id="nat">
+                <h2><i class="fa-solid fa-graduation-cap"></i> National Aptitude Test (NAT™)</h2>
+                <p>
+                    The <strong>National Aptitude Test (NAT™)</strong> is Pakistan’s premier standardized test designed for admissions to undergraduate degree programs in higher education institutions. Over 40 leading public and private Pakistani universities accept NAT™ scores for their bachelor's admissions.
+                </p>
+                <div style="background: #eff6ff; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+                    <strong>Key Features:</strong>
+                    <ul style="margin-left: 20px; font-size: 13px; color: #1e3a8a; line-height: 1.7; margin-top: 5px;">
+                        <li>Conducted <strong>every calendar month</strong> throughout the year nationwide.</li>
+                        <li>Total Questions: <strong>90 Multiple Choice Questions (MCQs)</strong> | Time Allowed: <strong>120 Minutes</strong>.</li>
+                        <li>Score Validity: <strong>One Full Year (12 Months)</strong> from the date of test.</li>
+                        <li>Single test score can be submitted to multiple member universities.</li>
+                    </ul>
+                </div>
+                <h4 style="font-size: 15px; color: var(--nts-navy); margin-top: 15px;">NAT™ Discipline Categories:</h4>
+                <table class="table-custom">
+                    <thead>
+                        <tr>
+                            <th>Test Category</th>
+                            <th>Educational Background</th>
+                            <th>Target Undergraduate Programs</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>NAT-IE</strong></td><td>Pre-Engineering</td><td>Engineering, Technology, Architecture</td></tr>
+                        <tr><td><strong>NAT-IM</strong></td><td>Pre-Medical</td><td>MBBS, BDS, Allied Health Sciences, Biotechnology</td></tr>
+                        <tr><td><strong>NAT-ICS</strong></td><td>Computer Science</td><td>BS Software Engineering, CS, IT, AI, Cyber Security</td></tr>
+                        <tr><td><strong>NAT-IGS</strong></td><td>General Science</td><td>Mathematics, Statistics, Economics</td></tr>
+                        <tr><td><strong>NAT-ICOM</strong></td><td>Commerce</td><td>BBA, BS Accounting & Finance, B.Com</td></tr>
+                        <tr><td><strong>NAT-IA</strong></td><td>Arts / Humanities</td><td>Law, Social Sciences, Media Studies, English</td></tr>
+                    </tbody>
+                </table>
+                <a href="open-applications.html" class="btn btn-warning btn-xs"><i class="fa-solid fa-file-pen"></i> Register for NAT™ 2026</a>
+                <a href="sample-papers.html" class="btn btn-outline-dark btn-xs"><i class="fa-solid fa-book-open"></i> View NAT™ Sample Papers</a>
+            </div>
+
+            <!-- 2. GAT GENERAL -->
+            <div class="prod-detail-card" id="gat-gen" style="border-top-color: #d97706;">
+                <h2><i class="fa-solid fa-user-graduate"></i> Graduate Assessment Test (GAT™ - General)</h2>
+                <p>
+                    The <strong>GAT™ - General</strong> is designed for candidates seeking admission to MS / M.Phil programs and for applicants seeking award of HEC Indigenous & Overseas scholarships.
+                </p>
+                <div style="background: #fefce8; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+                    <strong>Key Features:</strong>
+                    <ul style="margin-left: 20px; font-size: 13px; color: #854d0e; line-height: 1.7; margin-top: 5px;">
+                        <li>Conducted <strong>bi-monthly (6 times a year)</strong> across Pakistan.</li>
+                        <li>Total Questions: <strong>100 MCQs</strong> | Time Allowed: <strong>120 Minutes</strong>.</li>
+                        <li>Score Validity: <strong>Two Full Years (24 Months)</strong>.</li>
+                        <li>Testing domains: Verbal Reasoning, Quantitative Reasoning, and Analytical Reasoning.</li>
+                    </ul>
+                </div>
+                <h4 style="font-size: 15px; color: var(--nts-navy); margin-top: 15px;">GAT™ General Paper Structure:</h4>
+                <table class="table-custom">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Target Group</th>
+                            <th>Verbal</th>
+                            <th>Quantitative</th>
+                            <th>Analytical</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>GAT-A</strong></td><td>Business & Engineering Candidates</td><td>35%</td><td>35%</td><td>30%</td></tr>
+                        <tr><td><strong>GAT-B</strong></td><td>Arts, Humanities & Social Sciences</td><td>50%</td><td>25%</td><td>25%</td></tr>
+                        <tr><td><strong>GAT-C</strong></td><td>Agricultural, Biological & Medical Sciences</td><td>40%</td><td>30%</td><td>30%</td></tr>
+                        <tr><td><strong>GAT-D</strong></td><td>Religious Studies / Dars-e-Nizami</td><td>50%</td><td>20%</td><td>30%</td></tr>
+                    </tbody>
+                </table>
+                <a href="open-applications.html" class="btn btn-warning btn-xs"><i class="fa-solid fa-file-pen"></i> Register for GAT™ General</a>
+            </div>
+
+            <!-- 3. GAT SUBJECT -->
+            <div class="prod-detail-card" id="gat-sub" style="border-top-color: var(--nts-green);">
+                <h2><i class="fa-solid fa-microscope"></i> Graduate Assessment Test (GAT™ - Subject)</h2>
+                <p>
+                    The <strong>GAT™ - Subject</strong> is a compulsory examination for candidates pursuing admission into Ph.D. degree programs nationwide. It assesses advanced subject-matter expertise across 28 distinct academic disciplines.
+                </p>
+                <div style="background: #ecfdf5; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+                    <strong>Paper Distribution:</strong>
+                    <ul style="margin-left: 20px; font-size: 13px; color: #065f46; line-height: 1.7; margin-top: 5px;">
+                        <li><strong>70% Subject Specialization:</strong> Core theoretical and applied concepts of the specific discipline.</li>
+                        <li><strong>30% General Section:</strong> English Verbal (15%) + Analytical Reasoning (15%).</li>
+                        <li>Conducted <strong>quarterly (4 times a year)</strong>.</li>
+                    </ul>
+                </div>
+                <a href="open-applications.html" class="btn btn-primary btn-xs"><i class="fa-solid fa-file-pen"></i> View GAT™ Subject Schedule</a>
+            </div>
+
+            <!-- 4. RECRUITMENT TESTS -->
+            <div class="prod-detail-card" id="recruitment" style="border-top-color: #0284c7;">
+                <h2><i class="fa-solid fa-briefcase"></i> Screening & Recruitment Tests</h2>
+                <p>
+                    NTS provides customized, end-to-end recruitment screening solutions for government ministries, provincial departments, defense organizations, banking institutions, and multinational corporations.
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
+                    <div style="border: 1px solid #e2e8f0; padding: 15px; border-radius: 4px;">
+                        <h4 style="font-size: 14px; color: var(--nts-navy);"><i class="fa-solid fa-shield-halved"></i> Biometric Verification</h4>
+                        <p style="font-size: 12px; color: #64748b; margin: 0;">CNIC verification and biometric thumbprint matching at examination center gates to prevent impersonation.</p>
+                    </div>
+                    <div style="border: 1px solid #e2e8f0; padding: 15px; border-radius: 4px;">
+                        <h4 style="font-size: 14px; color: var(--nts-navy);"><i class="fa-solid fa-barcode"></i> Multiple Paper Codes</h4>
+                        <p style="font-size: 12px; color: #64748b; margin: 0;">Scrambled color-coded question papers (White, Pink, Green, Yellow) to ensure total exam fairness.</p>
+                    </div>
+                    <div style="border: 1px solid #e2e8f0; padding: 15px; border-radius: 4px;">
+                        <h4 style="font-size: 14px; color: var(--nts-navy);"><i class="fa-solid fa-bolt"></i> Rapid Digital Marking</h4>
+                        <p style="font-size: 12px; color: #64748b; margin: 0;">High-speed Optical Mark Recognition (OMR) scanners produce audited results within 48 to 72 hours.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. INTERNATIONAL ASSESSMENTS -->
+            <div class="prod-detail-card" id="intl" style="border-top-color: #7c3aed;">
+                <h2><i class="fa-solid fa-globe"></i> International Assessments (TOEFL®-ITP & TOEIC®)</h2>
+                <p>
+                    NTS is the official authorized country representative for premier international assessments developed by Educational Testing Service (ETS, USA):
+                </p>
+                <ul style="margin-left: 20px; font-size: 13.5px; color: #334155; line-height: 1.8;">
+                    <li><strong>TOEFL® ITP (Institutional Testing Program):</strong> Evaluates non-native English language proficiency for academic study and scholarship selection.</li>
+                    <li><strong>TOEIC® (Test of English for International Communication):</strong> Global benchmark for workplace English proficiency utilized by multinational employers.</li>
+                    <li><strong>WorkFORCE® Assessment:</strong> Behavioral and cognitive evaluation for workforce readiness and corporate placement.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="NTS Logo" style="height: 38px; filter: brightness(0) invert(1);">
+                    </div>
+                    <p class="f-desc">Building Standards in Educational and Professional Testing since 2002.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Quick Links</h4>
+                    <ul class="f-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="open-applications.html">Open Applications</a></li>
+                        <li><a href="candidates.html">List of Candidates</a></li>
+                        <li><a href="results.html">All Results</a></li>
+                        <li><a href="candidate-portal.html">Candidate Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Testing Services</h4>
+                    <ul class="f-links">
+                        <li><a href="products.html#nat">NAT™ Admissions</a></li>
+                        <li><a href="products.html#gat-gen">GAT™ General</a></li>
+                        <li><a href="products.html#gat-sub">GAT™ Subject</a></li>
+                        <li><a href="csr.html">Disability Fee Waiver</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Contact & Help</h4>
+                    <div class="f-contact-item"><i class="fa-solid fa-location-dot"></i><span>Plot 96, Street 4, H-8/1, Islamabad</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-phone"></i><span>UAN: +92-51-844-444-1</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-envelope"></i><span>query@nts.org.pk</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 National Testing Service - Pakistan (NTS™). All Rights Reserved.</p>
+                <div class="bottom-links">
+                    <a href="index.html">Home</a> | <a href="contact.html">Contact Us</a> | <a href="candidate-portal.html">Portal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/responsive.js"></script>
+</body>
+</html>
+
+

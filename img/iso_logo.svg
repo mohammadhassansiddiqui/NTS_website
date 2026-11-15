@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185 56" width="185" height="56">
+  <defs>
+    <linearGradient id="isoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b8861b" />
+      <stop offset="50%" stop-color="#f3d266" />
+      <stop offset="100%" stop-color="#9a6f12" />
+    </linearGradient>
+    <linearGradient id="isoNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051a30" />
+      <stop offset="100%" stop-color="#0d2e54" />
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="182" height="53" rx="8" fill="#ffffff" stroke="url(#isoGold)" stroke-width="1.5"/>
+  <circle cx="30" cy="28" r="19" fill="url(#isoNavy)" stroke="url(#isoGold)" stroke-width="1.5"/>
+  <text x="30" y="26" font-family="'Poppins', Arial, sans-serif" font-size="8.5" font-weight="800" fill="#fae69e" text-anchor="middle" letter-spacing="0.8">ISO</text>
+  <text x="30" y="36" font-family="'Poppins', Arial, sans-serif" font-size="6.5" font-weight="700" fill="#ffffff" text-anchor="middle">9001</text>
+  <text x="58" y="23" font-family="'Poppins', Arial, sans-serif" font-size="11.5" font-weight="800" fill="#051a30" letter-spacing="0.3">ISO 9001:2015</text>
+  <text x="58" y="36" font-family="'Roboto', Arial, sans-serif" font-size="8.5" font-weight="700" fill="#b8861b" letter-spacing="0.9">QUALITY CERTIFIED</text>
+  <text x="58" y="46" font-family="'Roboto', Arial, sans-serif" font-size="7.5" font-weight="500" fill="#64748b">QMS Standard Verified</text>
+</svg>

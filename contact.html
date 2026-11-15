@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | NTS ™ - Pakistan</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="img/nts_logo.svg">
+    <style>
+        .inner-banner {
+            background: linear-gradient(rgba(0, 43, 73, 0.90), rgba(0, 20, 40, 0.95)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&w=1600&q=80') center/cover;
+            color: #ffffff;
+            padding: 50px 0;
+            border-bottom: 4px solid var(--nts-gold);
+        }
+        .inner-banner h1 { font-size: 32px; color: #ffffff; margin-bottom: 8px; }
+        .breadcrumb { font-size: 13px; color: #cbd5e1; }
+        .breadcrumb a { color: var(--nts-gold); }
+        .content-area { padding: 40px 0 60px; background: #ffffff; }
+        .contact-layout-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 30px;
+        }
+        .inquiry-form-card {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 25px;
+            box-shadow: var(--shadow-sm);
+        }
+        .inquiry-form-card h3 {
+            font-size: 18px;
+            color: var(--nts-navy);
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+        @media (max-width: 900px) {
+            .contact-layout-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-left">
+                <span><i class="fa-solid fa-phone"></i> <strong>Call Center:</strong> +92-51-844-444-1</span>
+                <span><i class="fa-regular fa-envelope"></i> query@nts.org.pk</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="challan.html"><i class="fa-solid fa-receipt"></i> 1Bill Challan</a>
+                <a href="sample-papers.html"><i class="fa-solid fa-download"></i> Sample Papers</a>
+                <a href="candidate-portal.html" class="top-portal-btn"><i class="fa-solid fa-user-lock"></i> Candidate Portal</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="brand-area">
+                <a href="index.html" class="logo-link">
+                    <img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="National Testing Service - Pakistan" class="nts-main-logo">
+                </a>
+            </div>
+            <div class="header-badges">
+                <div class="call-center-box">
+                    <div class="cc-icon"><i class="fa-solid fa-headset"></i></div>
+                    <div class="cc-text">
+                        <span>CALL CENTER HELPLINE</span>
+                        <strong>+92-51-844-444-1</strong>
+                    </div>
+                </div>
+                <div class="iso-box"><img src="img/iso_logo.svg" alt="ISO 9001:2015" style="height: 48px;"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION MENU -->
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li class="dropdown"><a href="about.html">ABOUT US <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#intro">About NTS</a></li>
+                        <li><a href="about.html#vision">Vision & Mission</a></li>
+                        <li><a href="about.html#bod">Board of Directors</a></li>
+                        <li><a href="about.html#ceo">Message from CEO</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="products.html">PRODUCTS & SERVICES <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html#nat">National Aptitude Test (NAT™)</a></li>
+                        <li><a href="products.html#gat-gen">GAT™ General</a></li>
+                        <li><a href="products.html#gat-sub">GAT™ Subject</a></li>
+                        <li><a href="products.html#recruitment">Recruitment Screening</a></li>
+                    </ul>
+                </li>
+                <li><a href="open-applications.html">OPEN APPLICATIONS</a></li>
+                <li><a href="candidates.html">LIST OF CANDIDATES</a></li>
+                <li><a href="results.html">ALL RESULTS</a></li>
+                <li class="dropdown"><a href="downloads.html">DOWNLOADS <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="challan.html">1Bill Bank Deposit Slips</a></li>
+                        <li><a href="sample-papers.html">Sample Papers</a></li>
+                        <li><a href="candidates.html">Roll Number Slips</a></li>
+                        <li><a href="results.html">Result Cards</a></li>
+                    </ul>
+                </li>
+                <li><a href="procurement.html">PROCUREMENT</a></li>
+                <li><a href="csr.html">CSR</a></li>
+                <li class="active"><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <div class="nav-portal-shortcut">
+                <a href="candidate-portal.html" class="nav-portal-pill"><i class="fa-solid fa-user"></i> Portal Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="inner-banner">
+        <div class="container">
+            <h1>Contact Us & Help Center</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> &nbsp;/&nbsp; Contact Us &nbsp;/&nbsp; Head Office, Regional Centers & Query Redressal
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content-area">
+        <div class="container">
+
+            <div class="contact-layout-grid">
+                
+                <!-- Left: Head Office & Regional Centers -->
+                <div>
+                    <!-- Head Office -->
+                    <div class="contact-card primary-office" style="margin-bottom: 25px;">
+                        <div class="badge-flag">CENTRAL HEAD OFFICE</div>
+                        <h3><i class="fa-solid fa-landmark"></i> National Testing Service - Pakistan</h3>
+                        <p><i class="fa-solid fa-location-dot"></i> Plot # 96, Street # 4, Sector H-8/1, Islamabad, Pakistan</p>
+                        <p><i class="fa-solid fa-phone"></i> <strong>Activated Global Call Center:</strong> +92-51-844-444-1</p>
+                        <p><i class="fa-solid fa-envelope"></i> <strong>General Inquiry:</strong> query@nts.org.pk</p>
+                        <p><i class="fa-solid fa-clock"></i> <strong>Timings:</strong> Monday to Friday: 08:30 AM to 04:30 PM</p>
+                        <p><i class="fa-solid fa-utensils"></i> <strong>Lunch / Prayer Break:</strong> 01:00 PM to 02:00 PM (Friday: 01:00 PM to 02:30 PM)</p>
+                    </div>
+
+                    <!-- Regional Offices Grid -->
+                    <h3 style="font-size: 17px; color: var(--nts-navy); margin-bottom: 15px;"><i class="fa-solid fa-building"></i> Regional Help Desks</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div class="contact-card">
+                            <h4>Lahore Office</h4>
+                            <p><i class="fa-solid fa-location-dot"></i> Central Commercial Area, Phase 5, DHA, Lahore</p>
+                            <p><i class="fa-solid fa-phone"></i> +92-42-35755141-3</p>
+                        </div>
+                        <div class="contact-card">
+                            <h4>Karachi Office</h4>
+                            <p><i class="fa-solid fa-location-dot"></i> Block 6, PECHS, Shahrah-e-Faisal, Karachi</p>
+                            <p><i class="fa-solid fa-phone"></i> +92-21-34546931-2</p>
+                        </div>
+                        <div class="contact-card">
+                            <h4>Peshawar Office</h4>
+                            <p><i class="fa-solid fa-location-dot"></i> Phase 3, Hayatabad, Peshawar, KPK</p>
+                            <p><i class="fa-solid fa-phone"></i> +92-91-5861616</p>
+                        </div>
+                        <div class="contact-card">
+                            <h4>Quetta Office</h4>
+                            <p><i class="fa-solid fa-location-dot"></i> Samungli Road, Near Chaman Phatak, Quetta</p>
+                            <p><i class="fa-solid fa-phone"></i> +92-81-2821102</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Online Query Submission Form -->
+                <div>
+                    <div class="inquiry-form-card">
+                        <h3><i class="fa-solid fa-paper-plane"></i> Submit Candidate Query / Objection</h3>
+                        <p style="font-size: 12.5px; color: #64748b; margin-bottom: 15px;">
+                            For application corrections, test fee tracking, or examination queries. Queries must be submitted at least 7 days prior to test date.
+                        </p>
+                        <form onsubmit="handleQuerySubmit(event)">
+                            <div class="form-group" style="margin-bottom: 12px;">
+                                <label style="font-size: 12.5px; font-weight: 600;">Candidate Full Name: <span class="req">*</span></label>
+                                <input type="text" class="form-control" placeholder="As per CNIC" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 12px;">
+                                <label style="font-size: 12.5px; font-weight: 600;">CNIC Number: <span class="req">*</span></label>
+                                <input type="text" class="form-control" placeholder="61101-1234567-1" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 12px;">
+                                <label style="font-size: 12.5px; font-weight: 600;">Roll Number (If issued):</label>
+                                <input type="text" class="form-control" placeholder="e.g. NTS-2026-894120">
+                            </div>
+                            <div class="form-group" style="margin-bottom: 12px;">
+                                <label style="font-size: 12.5px; font-weight: 600;">Nature of Query: <span class="req">*</span></label>
+                                <select class="form-control" required>
+                                    <option value="">-- Select Query Type --</option>
+                                    <option value="Fee">1Bill Fee Deposit Verification Issue</option>
+                                    <option value="RollNo">Roll Number Slip Not Showing</option>
+                                    <option value="Correction">Name / Bio-data Correction</option>
+                                    <option value="Center">Change of Test Center Venue</option>
+                                    <option value="Result">Result Inquiry / Section Marks</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 15px;">
+                                <label style="font-size: 12.5px; font-weight: 600;">Query Description: <span class="req">*</span></label>
+                                <textarea class="form-control" rows="4" placeholder="Please explain your issue clearly with project name..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Submit Query to NTS Help Desk
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand"><img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="NTS Logo" style="height: 38px; filter: brightness(0) invert(1);"></div>
+                    <p class="f-desc">National Testing Service - Pakistan (NTS™) | Building Standards in Educational and Professional Testing.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Quick Links</h4>
+                    <ul class="f-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="open-applications.html">Open Applications</a></li>
+                        <li><a href="candidates.html">List of Candidates</a></li>
+                        <li><a href="results.html">All Results</a></li>
+                        <li><a href="candidate-portal.html">Candidate Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Testing Services</h4>
+                    <ul class="f-links">
+                        <li><a href="products.html#nat">NAT™ Admissions</a></li>
+                        <li><a href="products.html#gat-gen">GAT™ General</a></li>
+                        <li><a href="products.html#gat-sub">GAT™ Subject</a></li>
+                        <li><a href="csr.html">Disability Fee Waiver</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Contact & Help</h4>
+                    <div class="f-contact-item"><i class="fa-solid fa-location-dot"></i><span>Plot 96, Street 4, H-8/1, Islamabad</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-phone"></i><span>UAN: +92-51-844-444-1</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-envelope"></i><span>query@nts.org.pk</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 National Testing Service - Pakistan (NTS™). All Rights Reserved.</p>
+                <div class="bottom-links"><a href="index.html">Home</a> | <a href="contact.html">Contact Us</a> | <a href="candidate-portal.html">Portal</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/responsive.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procurement & Tenders | NTS ™ - Pakistan</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="img/nts_logo.svg">
+    <style>
+        .inner-banner {
+            background: linear-gradient(rgba(0, 43, 73, 0.90), rgba(0, 20, 40, 0.95)), url('https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1600&q=80') center/cover;
+            color: #ffffff;
+            padding: 50px 0;
+            border-bottom: 4px solid var(--nts-gold);
+        }
+        .inner-banner h1 { font-size: 32px; color: #ffffff; margin-bottom: 8px; }
+        .breadcrumb { font-size: 13px; color: #cbd5e1; }
+        .breadcrumb a { color: var(--nts-gold); }
+        .content-area { padding: 40px 0 60px; background: #ffffff; }
+        .tender-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 22px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid var(--nts-navy);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .tender-info h3 {
+            font-size: 16px;
+            color: var(--nts-navy);
+            margin-bottom: 6px;
+        }
+        .tender-meta {
+            display: flex;
+            gap: 20px;
+            font-size: 12.5px;
+            color: #64748b;
+            flex-wrap: wrap;
+        }
+        .tender-meta span strong {
+            color: #1e293b;
+        }
+    </style>
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-left">
+                <span><i class="fa-solid fa-phone"></i> <strong>Call Center:</strong> +92-51-844-444-1</span>
+                <span><i class="fa-regular fa-envelope"></i> query@nts.org.pk</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="challan.html"><i class="fa-solid fa-receipt"></i> 1Bill Challan</a>
+                <a href="sample-papers.html"><i class="fa-solid fa-download"></i> Sample Papers</a>
+                <a href="candidate-portal.html" class="top-portal-btn"><i class="fa-solid fa-user-lock"></i> Candidate Portal</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="brand-area">
+                <a href="index.html" class="logo-link">
+                    <img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="National Testing Service - Pakistan" class="nts-main-logo">
+                </a>
+            </div>
+            <div class="header-badges">
+                <div class="call-center-box">
+                    <div class="cc-icon"><i class="fa-solid fa-headset"></i></div>
+                    <div class="cc-text">
+                        <span>CALL CENTER HELPLINE</span>
+                        <strong>+92-51-844-444-1</strong>
+                    </div>
+                </div>
+                <div class="iso-box"><img src="img/iso_logo.svg" alt="ISO 9001:2015" style="height: 48px;"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION MENU -->
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li class="dropdown"><a href="about.html">ABOUT US <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#intro">About NTS</a></li>
+                        <li><a href="about.html#vision">Vision & Mission</a></li>
+                        <li><a href="about.html#bod">Board of Directors</a></li>
+                        <li><a href="about.html#ceo">Message from CEO</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="products.html">PRODUCTS & SERVICES <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html#nat">National Aptitude Test (NAT™)</a></li>
+                        <li><a href="products.html#gat-gen">GAT™ General</a></li>
+                        <li><a href="products.html#gat-sub">GAT™ Subject</a></li>
+                        <li><a href="products.html#recruitment">Recruitment Screening</a></li>
+                    </ul>
+                </li>
+                <li><a href="open-applications.html">OPEN APPLICATIONS</a></li>
+                <li><a href="candidates.html">LIST OF CANDIDATES</a></li>
+                <li><a href="results.html">ALL RESULTS</a></li>
+                <li class="dropdown"><a href="downloads.html">DOWNLOADS <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="challan.html">1Bill Bank Deposit Slips</a></li>
+                        <li><a href="sample-papers.html">Sample Papers</a></li>
+                        <li><a href="candidates.html">Roll Number Slips</a></li>
+                        <li><a href="results.html">Result Cards</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="procurement.html">PROCUREMENT</a></li>
+                <li><a href="csr.html">CSR</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <div class="nav-portal-shortcut">
+                <a href="candidate-portal.html" class="nav-portal-pill"><i class="fa-solid fa-user"></i> Portal Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="inner-banner">
+        <div class="container">
+            <h1>Procurement & Tenders</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> &nbsp;/&nbsp; Procurement &nbsp;/&nbsp; Public Procurement (PPRA) Notices & Bidding Documents
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content-area">
+        <div class="container">
+
+            <div style="background-color: #eff6ff; border-left: 4px solid var(--nts-navy); padding: 18px; border-radius: 4px; margin-bottom: 30px; font-size: 13.5px; color: #1e3a8a;">
+                <i class="fa-solid fa-scale-balanced" style="font-size: 18px; margin-right: 8px;"></i>
+                <strong>Public Procurement Regulatory Authority (PPRA) Compliance:</strong> All procurements, expressions of interest (EOI), and bidding processes at National Testing Service - Pakistan are conducted in strict adherence to the Public Procurement Rules, ensuring fairness, transparency, and competitive bidding.
+            </div>
+
+            <h2 style="font-size: 20px; color: var(--nts-navy); margin-bottom: 20px;"><i class="fa-solid fa-file-contract"></i> Active Tenders & Bidding Opportunities (2026)</h2>
+
+            <!-- Tender 1 -->
+            <div class="tender-card">
+                <div class="tender-info">
+                    <h3>Procurement of High-Speed OMR Scanners & Imaging Hardware</h3>
+                    <div class="tender-meta">
+                        <span>Tender Notice No: <strong>NTS/PROC/2026/01</strong></span>
+                        <span>Bid Submission Deadline: <strong style="color: #c0392b;">25th February 2026 (11:00 AM)</strong></span>
+                        <span>Bid Opening Time: <strong>25th February 2026 (11:30 AM)</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-xs" onclick="simulateDownload('Tender_RFP_NTS_PROC_2026_01.pdf', '3.4 MB')">
+                        <i class="fa-solid fa-file-pdf"></i> Download RFP / Bidding Doc
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tender 2 -->
+            <div class="tender-card">
+                <div class="tender-info">
+                    <h3>Tender for Security Printing of Confidential Answer Sheets & Question Books</h3>
+                    <div class="tender-meta">
+                        <span>Tender Notice No: <strong>NTS/PROC/2026/02</strong></span>
+                        <span>Bid Submission Deadline: <strong style="color: #c0392b;">02nd March 2026 (02:00 PM)</strong></span>
+                        <span>Bid Opening Time: <strong>02nd March 2026 (02:30 PM)</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-xs" onclick="simulateDownload('Tender_RFP_NTS_PROC_2026_02.pdf', '2.6 MB')">
+                        <i class="fa-solid fa-file-pdf"></i> Download RFP / Bidding Doc
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tender 3 -->
+            <div class="tender-card">
+                <div class="tender-info">
+                    <h3>Hiring of Internal & External IT Security Audit Firm (ISO 27001 Re-certification)</h3>
+                    <div class="tender-meta">
+                        <span>Tender Notice No: <strong>NTS/PROC/2026/03</strong></span>
+                        <span>Bid Submission Deadline: <strong style="color: #c0392b;">10th March 2026 (11:00 AM)</strong></span>
+                        <span>Bid Opening Time: <strong>10th March 2026 (11:30 AM)</strong></span>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-xs" onclick="simulateDownload('Tender_RFP_NTS_PROC_2026_03.pdf', '4.1 MB')">
+                        <i class="fa-solid fa-file-pdf"></i> Download RFP / Bidding Doc
+                    </button>
+                </div>
+            </div>
+
+            <!-- General Procurement Instructions -->
+            <div style="background-color: #f8fafc; border: 1px solid var(--border-color); border-radius: 8px; padding: 25px; margin-top: 30px;">
+                <h3 style="font-size: 16px; color: var(--nts-navy); margin-bottom: 12px;"><i class="fa-solid fa-circle-info"></i> Instructions for Participating Bidders</h3>
+                <ol style="margin-left: 20px; font-size: 13px; color: #475569; line-height: 1.8;">
+                    <li>Single Stage Two Envelope procedure (Technical Proposal & Financial Proposal) shall be followed as per PPRA Rule 36(b).</li>
+                    <li>Bids must be accompanied by a Bid Security of 2% of the total bid price in the form of a Pay Order / Bank Draft in favor of National Testing Service - Pakistan.</li>
+                    <li>Tenders received after the specified date and time will not be entertained and returned unopened.</li>
+                    <li>Address for bid submission: <strong>In-charge Procurement, National Testing Service - Pakistan, Plot # 96, Street # 4, Sector H-8/1, Islamabad.</strong></li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand"><img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="NTS Logo" style="height: 38px; filter: brightness(0) invert(1);"></div>
+                    <p class="f-desc">National Testing Service - Pakistan (NTS™) | Building Standards in Educational and Professional Testing.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Quick Links</h4>
+                    <ul class="f-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="open-applications.html">Open Applications</a></li>
+                        <li><a href="candidates.html">List of Candidates</a></li>
+                        <li><a href="results.html">All Results</a></li>
+                        <li><a href="candidate-portal.html">Candidate Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Testing Services</h4>
+                    <ul class="f-links">
+                        <li><a href="products.html#nat">NAT™ Admissions</a></li>
+                        <li><a href="products.html#gat-gen">GAT™ General</a></li>
+                        <li><a href="products.html#gat-sub">GAT™ Subject</a></li>
+                        <li><a href="csr.html">Disability Fee Waiver</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Contact & Help</h4>
+                    <div class="f-contact-item"><i class="fa-solid fa-location-dot"></i><span>Plot 96, Street 4, H-8/1, Islamabad</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-phone"></i><span>UAN: +92-51-844-444-1</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-envelope"></i><span>query@nts.org.pk</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 National Testing Service - Pakistan (NTS™). All Rights Reserved.</p>
+                <div class="bottom-links"><a href="index.html">Home</a> | <a href="contact.html">Contact Us</a> | <a href="candidate-portal.html">Portal</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/responsive.js"></script>
+</body>
+</html>
+
+

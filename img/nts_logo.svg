@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 88" width="540" height="88">
+  <defs>
+    <linearGradient id="navyLux" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051a30" />
+      <stop offset="55%" stop-color="#0a294a" />
+      <stop offset="100%" stop-color="#031120" />
+    </linearGradient>
+    <linearGradient id="goldLux" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b8861b" />
+      <stop offset="35%" stop-color="#e7c15a" />
+      <stop offset="55%" stop-color="#fae69e" />
+      <stop offset="80%" stop-color="#c59b27" />
+      <stop offset="100%" stop-color="#9a6f12" />
+    </linearGradient>
+    <linearGradient id="emeraldLux" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="crestShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#051a30" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Regal Emblem Medallion -->
+  <g transform="translate(8, 6)" filter="url(#crestShadow)">
+    <!-- Outer Gold Bezel -->
+    <circle cx="38" cy="38" r="36" fill="url(#goldLux)" />
+    <!-- Inner Navy Shield -->
+    <circle cx="38" cy="38" r="32.5" fill="url(#navyLux)" />
+    <!-- Fine Inner Gold Filigree Ring -->
+    <circle cx="38" cy="38" r="29" fill="none" stroke="url(#goldLux)" stroke-width="1" stroke-dasharray="3,2" opacity="0.85" />
+
+    <!-- Iconic Rising Arcs (Knowledge & Merit) -->
+    <path d="M 18 32 Q 34 12 56 21" fill="none" stroke="url(#goldLux)" stroke-width="3.2" stroke-linecap="round" />
+    <path d="M 22 36 Q 36 19 54 26" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Center Monogram -->
+    <text x="36" y="51" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-size="18.5" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">NTS</text>
+    <text x="58" y="40" font-family="'Poppins', Arial, sans-serif" font-size="7" font-weight="700" fill="#fae69e">TM</text>
+
+    <!-- Base Laurel Accent -->
+    <path d="M 24 58 Q 38 64 52 58" fill="none" stroke="url(#goldLux)" stroke-width="1.6" stroke-linecap="round" />
+    <circle cx="38" cy="12" r="1.8" fill="#fae69e" />
+  </g>
+
+  <!-- Vertical Metallic Gold Divider -->
+  <rect x="96" y="14" width="1.8" height="60" rx="0.9" fill="url(#goldLux)" opacity="0.85" />
+
+  <!-- Institutional Typography Lockup -->
+  <g transform="translate(112, 10)">
+    <!-- Top Authority Overline -->
+    <text x="0" y="14" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="700" fill="#b8861b" letter-spacing="2.2">PAKISTAN'S PREMIER ASSESSMENT INSTITUTION</text>
+
+    <!-- Primary Title -->
+    <text x="0" y="41" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="800" fill="#051a30" letter-spacing="-0.2">NATIONAL TESTING SERVICE</text>
+    <rect x="332" y="25" width="76" height="20" rx="4" fill="url(#emeraldLux)" />
+    <text x="370" y="39" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1.2">PAKISTAN</text>
+
+    <!-- Tagline -->
+    <text x="0" y="61" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="500" fill="#475569" letter-spacing="0.3">Building Standards in Educational &amp; Professional Testing Since 2002</text>
+  </g>
+</svg>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | NTS ™ - Pakistan</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="img/nts_logo.svg">
+    <style>
+        .inner-banner {
+            background: linear-gradient(rgba(0, 43, 73, 0.90), rgba(0, 20, 40, 0.95)), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80') center/cover;
+            color: #ffffff;
+            padding: 50px 0;
+            border-bottom: 4px solid var(--nts-gold);
+        }
+        .inner-banner h1 {
+            font-size: 32px;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        .breadcrumb {
+            font-size: 13px;
+            color: #cbd5e1;
+        }
+        .breadcrumb a {
+            color: var(--nts-gold);
+        }
+        .about-content-area {
+            padding: 50px 0;
+            background: #ffffff;
+        }
+        .about-section-card {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-sm);
+        }
+        .about-section-card h2 {
+            font-size: 22px;
+            color: var(--nts-navy);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+        .about-section-card p {
+            font-size: 14px;
+            color: #334155;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .quote-box {
+            background: #eff6ff;
+            border-left: 5px solid var(--nts-navy);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+            font-style: italic;
+            color: #1e3a8a;
+            font-size: 15px;
+        }
+        .bod-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .bod-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            padding: 20px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+        }
+        .bod-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: var(--nts-navy);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin: 0 auto 15px;
+        }
+        .bod-card h4 {
+            font-size: 16px;
+            color: var(--nts-navy);
+            margin-bottom: 4px;
+        }
+        .bod-card span {
+            font-size: 12.5px;
+            color: #64748b;
+            display: block;
+        }
+        .cert-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .cert-item {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .cert-item i {
+            font-size: 24px;
+            color: var(--nts-green);
+        }
+    </style>
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-left">
+                <span><i class="fa-solid fa-phone"></i> <strong>Call Center:</strong> +92-51-844-444-1</span>
+                <span><i class="fa-regular fa-envelope"></i> query@nts.org.pk</span>
+                <span><i class="fa-regular fa-clock"></i> Mon - Fri: 08:30 AM - 04:30 PM (Lunch Break: 01:00 PM - 02:00 PM)</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="challan.html"><i class="fa-solid fa-receipt"></i> 1Bill Challan</a>
+                <a href="sample-papers.html"><i class="fa-solid fa-download"></i> Sample Papers</a>
+                <a href="candidate-portal.html" class="top-portal-btn"><i class="fa-solid fa-user-lock"></i> Candidate Portal</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="brand-area">
+                <a href="index.html" class="logo-link">
+                    <img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="National Testing Service - Pakistan" class="nts-main-logo">
+                </a>
+            </div>
+            <div class="header-badges">
+                <div class="call-center-box">
+                    <div class="cc-icon"><i class="fa-solid fa-headset"></i></div>
+                    <div class="cc-text">
+                        <span>CALL CENTER HELPLINE</span>
+                        <strong>+92-51-844-444-1</strong>
+                    </div>
+                </div>
+                <div class="iso-box">
+                    <img src="img/iso_logo.svg" alt="ISO 9001:2015 Certified" style="height: 48px;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION MENU -->
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li class="active dropdown">
+                    <a href="about.html">ABOUT US <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#intro"><i class="fa-solid fa-circle-info"></i> About NTS</a></li>
+                        <li><a href="about.html#vision"><i class="fa-solid fa-bullseye"></i> Vision & Mission</a></li>
+                        <li><a href="about.html#bod"><i class="fa-solid fa-users"></i> Board of Directors</a></li>
+                        <li><a href="about.html#ceo"><i class="fa-solid fa-user-tie"></i> Message from CEO</a></li>
+                        <li><a href="about.html#qms"><i class="fa-solid fa-award"></i> Quality Policy & ISO</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="products.html">PRODUCTS & SERVICES <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html#nat"><i class="fa-solid fa-graduation-cap"></i> National Aptitude Test (NAT™)</a></li>
+                        <li><a href="products.html#gat-gen"><i class="fa-solid fa-user-graduate"></i> Graduate Assessment Test (GAT™ General)</a></li>
+                        <li><a href="products.html#gat-sub"><i class="fa-solid fa-microscope"></i> Graduate Assessment Test (GAT™ Subject)</a></li>
+                        <li><a href="products.html#recruitment"><i class="fa-solid fa-briefcase"></i> Screening & Recruitment Tests</a></li>
+                        <li><a href="products.html#intl"><i class="fa-solid fa-globe"></i> International Tests (TOEFL / TOEIC)</a></li>
+                    </ul>
+                </li>
+                <li><a href="open-applications.html">OPEN APPLICATIONS</a></li>
+                <li><a href="candidates.html">LIST OF CANDIDATES</a></li>
+                <li><a href="results.html">ALL RESULTS</a></li>
+                <li class="dropdown">
+                    <a href="downloads.html">DOWNLOADS <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="challan.html"><i class="fa-solid fa-receipt"></i> 1Bill Bank Deposit Slips</a></li>
+                        <li><a href="sample-papers.html"><i class="fa-solid fa-file-pdf"></i> Sample Papers & Syllabi</a></li>
+                        <li><a href="candidates.html"><i class="fa-solid fa-id-card"></i> Roll Number Slips</a></li>
+                        <li><a href="results.html"><i class="fa-solid fa-square-poll-vertical"></i> Result Cards</a></li>
+                        <li><a href="downloads.html#rechecking"><i class="fa-solid fa-pen-to-square"></i> Paper Rechecking Forms</a></li>
+                    </ul>
+                </li>
+                <li><a href="procurement.html">PROCUREMENT</a></li>
+                <li><a href="csr.html">CSR</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <div class="nav-portal-shortcut">
+                <a href="candidate-portal.html" class="nav-portal-pill"><i class="fa-solid fa-user"></i> Portal Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- INNER BANNER -->
+    <div class="inner-banner">
+        <div class="container">
+            <h1>About Us</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> &nbsp;/&nbsp; About Us &nbsp;/&nbsp; Profile & Governance
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="about-content-area">
+        <div class="container">
+
+            <!-- Section 1: Overview & History -->
+            <div class="about-section-card" id="intro">
+                <h2><i class="fa-solid fa-landmark"></i> Institutional Profile & Background</h2>
+                <p>
+                    <strong>National Testing Service - Pakistan (NTS™)</strong> was established in July 2002 in compliance with the National Education Policy (1998–2010) and the Information Technology Policy of the Government of Pakistan. It was established as a premier self-sustained assessment organization to bring credibility, transparency, and merit-based evaluation to the educational and recruitment systems of the country.
+                </p>
+                <p>
+                    NTS is incorporated as a public sector, non-profit company limited by guarantee under Section 42 of the Companies Act, 2017. The organization is promoted by <strong>COMSATS University Islamabad (CUI)</strong> and operates under the stewardship of an autonomous Board of Directors comprising eminent educationists, corporate leaders, and senior government administrators.
+                </p>
+                <p>
+                    Over the past 24 years, NTS has conducted standardized tests for more than 22 million candidates across 15,000+ assessment centers nationwide. Its testing systems are trusted by over 1,000 corporate clients, federal ministries, provincial government departments, autonomous authorities, and leading public and private universities.
+                </p>
+            </div>
+
+            <!-- Section 2: Vision & Mission -->
+            <div class="about-section-card" id="vision">
+                <h2><i class="fa-solid fa-bullseye"></i> Vision & Mission</h2>
+                
+                <h3 style="font-size: 16px; color: var(--nts-navy); margin-top: 15px;"><i class="fa-solid fa-eye"></i> Our Vision</h3>
+                <div class="quote-box">
+                    "An internationally recognized testing and assessment organization facilitating in producing educated and market competitive human resource."
+                </div>
+
+                <h3 style="font-size: 16px; color: var(--nts-navy); margin-top: 20px;"><i class="fa-solid fa-crosshairs"></i> Our Mission</h3>
+                <div class="quote-box" style="border-left-color: var(--nts-green); background: #ecfdf5; color: #065f46;">
+                    "To build and promote standards in educational and professional testing and assessment."
+                </div>
+
+                <h3 style="font-size: 16px; color: var(--nts-navy); margin-top: 25px;"><i class="fa-solid fa-scale-balanced"></i> Core Values</h3>
+                <p>NTS conducts all operations in strict alignment with its five pillars of organizational integrity:</p>
+                <ul style="margin-left: 20px; font-size: 14px; color: #334155; line-height: 1.8;">
+                    <li><strong>Transparency:</strong> 100% open scrutiny with carbon copies of answer sheets provided to candidates.</li>
+                    <li><strong>Merit:</strong> Zero tolerance for nepotism or compromise on evaluation benchmarks.</li>
+                    <li><strong>Confidentiality:</strong> Multiple paper codes, computerized scrambled question banks, and secure vaults.</li>
+                    <li><strong>Innovation:</strong> Optical Mark Recognition (OMR) scanners, electronic result generation, and 1Bill digital payments.</li>
+                    <li><strong>Inclusiveness:</strong> Complete fee waivers for disabled persons and accessible testing centers.</li>
+                </ul>
+            </div>
+
+            <!-- Section 3: Board of Directors -->
+            <div class="about-section-card" id="bod">
+                <h2><i class="fa-solid fa-users"></i> Board of Directors (BoD)</h2>
+                <p>NTS is governed by an independent Board of Directors that provides strategic guidance, policy formulation, and fiduciary oversight:</p>
+                
+                <div class="bod-grid">
+                    <div class="bod-card">
+                        <div class="bod-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                        <h4>Prof. Dr. Raheel Qamar</h4>
+                        <span>Chairman, Board of Directors</span>
+                        <small style="color: #94a3b8; display: block; margin-top: 4px;">Rector, COMSATS University Islamabad</small>
+                    </div>
+                    <div class="bod-card">
+                        <div class="bod-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                        <h4>Mr. Muhammad Azam</h4>
+                        <span>Member, Board of Directors</span>
+                        <small style="color: #94a3b8; display: block; margin-top: 4px;">Treasurer, COMSATS University Islamabad</small>
+                    </div>
+                    <div class="bod-card">
+                        <div class="bod-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                        <h4>Mr. Tahir Aqeel</h4>
+                        <span>Chief Executive Officer (CEO)</span>
+                        <small style="color: #94a3b8; display: block; margin-top: 4px;">National Testing Service - Pakistan</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 4: Message from CEO -->
+            <div class="about-section-card" id="ceo">
+                <h2><i class="fa-solid fa-envelope-open-text"></i> Message from the Chief Executive Officer</h2>
+                <p>
+                    "Welcome to National Testing Service - Pakistan. Since our inception in 2002, our foremost priority has been to establish an indisputable benchmark of trust, fairness, and quality in assessment services. Testing is not merely the evaluation of knowledge; it is the cornerstone of societal merit, providing deserving students and professionals an equal opportunity to realize their dreams."
+                </p>
+                <p>
+                    "With cutting-edge OMR digital evaluation technologies, nationwide test centers in all four provinces, Azad Jammu & Kashmir, and Gilgit-Baltistan, and integration with 1Link 1Bill digital payment channels, NTS continues to lead Pakistan's educational and professional landscape. We remain dedicated to serving our youth and corporate partners with unmatched integrity."
+                </p>
+                <div style="margin-top: 15px; font-weight: 700; color: var(--nts-navy);">
+                    — Mr. Tahir Aqeel<br>
+                    <span style="font-size: 13px; font-weight: normal; color: #64748b;">Chief Executive Officer, NTS™ Pakistan</span>
+                </div>
+            </div>
+
+            <!-- Section 5: Quality Management System & Certifications -->
+            <div class="about-section-card" id="qms">
+                <h2><i class="fa-solid fa-award"></i> Quality Management System & Certifications</h2>
+                <p>
+                    NTS maintains an internationally audited Quality Management System (QMS) ensuring error-free testing, question bank security, confidential paper printing, and rapid result processing:
+                </p>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div>
+                            <strong>ISO 9001:2015</strong>
+                            <div style="font-size: 12px; color: #64748b;">Quality Management System Certification</div>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div>
+                            <strong>ISO 21001:2018</strong>
+                            <div style="font-size: 12px; color: #64748b;">Educational Organizations Management</div>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div>
+                            <strong>ISO 27001:2022</strong>
+                            <div style="font-size: 12px; color: #64748b;">Information Security & Candidate Data Privacy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="img/nts_logo.svg" onerror="this.onerror=null; this.src='img/nts_logo.svg';" alt="NTS Logo" style="height: 38px; filter: brightness(0) invert(1);">
+                    </div>
+                    <p class="f-desc">
+                        National Testing Service - Pakistan (NTS™) is Pakistan's pioneer testing organization, conducting credible, fair, and merit-based educational and professional evaluations since 2002.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Quick Links</h4>
+                    <ul class="f-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="open-applications.html">Open Applications</a></li>
+                        <li><a href="candidates.html">List of Candidates</a></li>
+                        <li><a href="results.html">All Results</a></li>
+                        <li><a href="candidate-portal.html">Candidate Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Testing Services</h4>
+                    <ul class="f-links">
+                        <li><a href="products.html#nat">NAT™ (Undergraduate Admissions)</a></li>
+                        <li><a href="products.html#gat-gen">GAT™ - General (MS/M.Phil)</a></li>
+                        <li><a href="products.html#gat-sub">GAT™ - Subject (Ph.D)</a></li>
+                        <li><a href="products.html#recruitment">Recruitment Screening Tests</a></li>
+                        <li><a href="csr.html">CSR & Disability Fee Waiver</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="f-heading">Contact & Help</h4>
+                    <div class="f-contact-item"><i class="fa-solid fa-location-dot"></i><span>Plot 96, Street 4, H-8/1, Islamabad</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-phone"></i><span>UAN: +92-51-844-444-1</span></div>
+                    <div class="f-contact-item"><i class="fa-solid fa-envelope"></i><span>query@nts.org.pk</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 National Testing Service - Pakistan (NTS™). All Rights Reserved.</p>
+                <div class="bottom-links">
+                    <a href="index.html">Home</a> | <a href="contact.html">Contact Us</a> | <a href="candidate-portal.html">Portal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/responsive.js"></script>
+</body>
+</html>
+
+
