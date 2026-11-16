@@ -1461,7 +1461,7 @@ function openProductModal(prodKey) {
             </div>
             <button class="modal-close-btn" style="color:#fff; position:static;" onclick="closeModal('productModal')">&times;</button>
         </div>
-        <div style="padding: 24px; max-height: 78vh; overflow-y: auto;">
+        <div style="padding: 24px; max-height: calc(90vh - 85px); overflow-y: auto;">
             <p style="font-size: 13.5px; color: #334155; line-height: 1.65; margin-bottom: 18px;">${p.desc}</p>
 
             <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px;">
@@ -1535,7 +1535,7 @@ function openCsrModal() {
                 </div>
                 <button class="modal-close-btn" style="color:#fff; position:static;" onclick="closeModal('csrModal')">&times;</button>
             </div>
-            <div style="padding: 24px; max-height: 78vh; overflow-y: auto;">
+            <div style="padding: 24px; max-height: calc(90vh - 85px); overflow-y: auto;">
                 <p style="font-size: 13.5px; color: #334155; line-height: 1.65; margin-bottom: 16px;">
                     Under the National Testing Service Corporate Social Responsibility (CSR) mandate, <strong>100% of the examination fee is waived</strong> for all differently-abled candidates (Special Persons) across every academic, scholarship, and recruitment test.
                 </p>
